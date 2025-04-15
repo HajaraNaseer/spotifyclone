@@ -1,0 +1,8 @@
+.mainSection{
+    /* height: 90%; */
+    width: 78%;
+    border: 2px solid yellow;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-image:linear-gradient(to bottom ,rgb(50, 50, 50) ,#242424) ;
+}
