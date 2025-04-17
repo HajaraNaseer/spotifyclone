@@ -2,14 +2,14 @@ import React from 'react'
 import './trending.css'
 import TrendingCard from '../trendingCard/TrendingCard'
 
-const Trending = () => {
+const Trending = (setCurrentPage,setCurrentEle) => {
   return (
     <div className='trendingSectionMainContainer'> 
    <span>
     Trending
      </span>
     
-    <TrendingCard/>
+    <TrendingCard setCurrentPage={setCurrentPage}setCurrentEle={setCurrentEle}/>
     </div>
   )
 }

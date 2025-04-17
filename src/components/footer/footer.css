@@ -1,0 +1,5 @@
+.footerSectionMainContainer{
+    /* border: 2px solid red; */
+    height: 10%;
+    background-image: linear-gradient(to right, rgb(243, 112, 134),rgb(0,166,255));
+}
